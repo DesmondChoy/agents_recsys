@@ -1,72 +1,22 @@
 process_transcript_task:
-  description: >-
-    This is a conversation transcript between a potential customer looking to buy 
-    travel insurance and a customer service representative from ShiokAh Insurance.
-    
-    Process the provided conversation transcript. Extract relevant customer information 
-    and return it as a Python list. 
-    This information will be passed to an underwriter agent to assess policy suitability, 
-    so extract relevant details where necessary.
-    
-    The transcript is:
-    --- START OF TRANSCRIPT ---
-    {transcript_content}
-    --- END OF TRANSCRIPT ---
-  expected_output: >
-      Strictly adhere to the following list of values for extraction:
-      - age (integer)
-      - medical_conditions (list of strings, can be empty if none mentioned)
-      - destination (string)
-      - coverage_factors (list of strings)
-      - policy_customization_factors (list of strings)
-  agent: conversation_transcript_agent
+  description: "This task involves analyzing a conversation transcript between a potential customer 
+  interested in travel insurance and a customer service representative from ShiokAh Insurance. 
+  The goal is to extract key customer details from the transcript, such as age, medical conditions, 
+  destination, coverage preferences, and customization requests. This extracted information will be 
+  organized into a Python list and used by an underwriter to determine policy suitability."
+  expected_output: A Python list
 
 generate_underwriting_report_task:
-  description: >-
-    Generate a comprehensive underwriting report in **Markdown format** based on the provided customer 
-    information and the travel insurance policy details below.
-
-    This report is intended for the Chief Underwriter and should focus on accurate and relevant extraction 
-    of information from both sources. Use clear and concise Markdown formatting to structure the report.
-
-    Focus on accurate and relevant information extraction. This is NOT a policy recommendation; 
-    the goal is to provide a clear and structured analysis of customer information in relation to the 
-    policy details.
-
-    --- START OF CUSTOMER INFO ---
-    {customer_info_list}
-    --- END OF CUSTOMER INFO ---
-
-    --- START OF POLICY DETAILS ---
-    {policy_details}
-    --- END OF POLICY DETAILS ---
-
-  expected_output: >-
-    The report should have the following structure:
-    
-    1. **Policy Summary:** Begin with a summary of the travel insurance policy, including its name. Use a 
-    top-level heading (H1) for this section: `# Policy Summary`.
-      
-    2. **Customer Information Sections:** Create subsequent sections for each key in the provided customer 
-    information (age, medical_conditions, destination, coverage_factors, policy_customization_factors). 
-    Use second-level headings (H2) for each of these sections:  `## Age`, `## Medical Conditions`, etc. 
-    Within each section, extract and present relevant information from the conversation transcript and 
-    cross-reference it with the provided policy details to determine potential premiums, exclusions, or 
-    other relevant underwriting considerations. Provide specific examples from the transcript to support 
-    your analysis. Use bullet points, bold text, and other Markdown elements to structure the information 
-    within each section.
-      
-    **Example (Markdown formatting):**
-    ```markdown
-    # Policy Summary
-
-    This report summarizes the "ShiokAh TravelSafe" policy for a customer traveling to Japan.
-
-    ## Age
-
-    The customer is 62 years old. According to the policy details, customers over 60 are subject to a 
-    premium surcharge of 15%. The transcript indicates the customer is aware of potential 
-    age-related considerations: "Winter time, don't want to take risk."
-    ```
-  agent: underwriting_report_agent
-  async_execution: True
+  description: "This task requires you to generate a comprehensive underwriting report in Markdown format. 
+  The report will be based on your review of a travel insurance policy.
+  This report is for the Chief Underwriter and should focus on accurately extracting relevant information from both sources. 
+  Please use clear and concise Markdown formatting to structure the report. 
+  Remember, this is not a policy recommendation. The goal is to provide a structured analysis of customer information 
+  in relation to the policy details."
+  expected_output: "The report should be in Markdown format and follow this structure: First, include a 
+  'Policy Summary' section using a top-level heading (# Policy Summary). Then, create separate sections for 
+  each piece of customer information (age, medical conditions, destination, coverage factors, policy 
+  customization factors) using second-level headings (## Age, ## Medical Conditions, etc.). In each section, 
+  extract relevant information, cross-reference it with the policy details to highlight potential premiums, 
+  exclusions, or other underwriting considerations, and provide examples from the transcript to support your 
+  analysis. Use Markdown elements like bullet points and bold text for clarity."

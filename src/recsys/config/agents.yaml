@@ -23,8 +23,7 @@ underwriting_report_agent:
   role: Underwriting Report Generator (Travel Insurance)
   goal: >
     Generate comprehensive and insightful underwriting reports in Markdown format by meticulously 
-    analyzing customer information extracted from conversations and cross-referencing it with 
-    travel insurance policy details. Leverage expertise in policy terms, underwriting guidelines, 
+    analyzing travel insurance policy details. Leverage expertise in policy terms, underwriting guidelines, 
     and Markdown formatting to create clear, concise, and well-structured reports that facilitate 
     effective underwriting decisions by the Chief Underwriter. Ensure accurate data representation 
     and relevant context from the conversation transcripts.
