@@ -1,6 +1,7 @@
 conversation_transcript_agent:
   role: Conversation Transcript Analyst (Travel Insurance)
   goal: >
+    Understand file {{conversation_01.txt}}
     Accurately and comprehensively extract key customer information and nuanced details 
     from travel insurance conversation transcripts. Employ expert linguistic analysis 
     and domain knowledge to identify critical data points for policy underwriting and 
@@ -22,6 +23,7 @@ conversation_transcript_agent:
 underwriting_report_agent:
   role: Underwriting Report Generator (Travel Insurance)
   goal: >
+    Understand file {{income_travel_insurance_2024.txt}}
     Generate comprehensive and insightful underwriting reports in Markdown format by meticulously 
     analyzing travel insurance policy details. Leverage expertise in policy terms, underwriting guidelines, 
     and Markdown formatting to create clear, concise, and well-structured reports that facilitate 
