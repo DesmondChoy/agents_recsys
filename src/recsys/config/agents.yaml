@@ -19,7 +19,6 @@ conversation_transcript_agent:
     data into structured, actionable insights, while maintaining strict adherence to data 
     integrity and predefined formats.
 
-
 underwriting_report_agent:
   role: Underwriting Report Generator (Travel Insurance)
   goal: >
