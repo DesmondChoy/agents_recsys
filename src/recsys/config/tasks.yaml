@@ -8,15 +8,28 @@ process_transcript_task:
 
 generate_underwriting_report_task:
   description: "This task requires you to generate a comprehensive underwriting report in Markdown format. 
-  The report will be based on your review of a travel insurance policy.
-  This report is for the Chief Underwriter and should focus on accurately extracting relevant information from both sources. 
-  Please use clear and concise Markdown formatting to structure the report. 
-  Remember, this is not a policy recommendation. The goal is to provide a structured analysis of customer information 
-  in relation to the policy details."
-  expected_output: "The report should be in Markdown format and follow this structure: First, include a 
-  'Policy Summary' section using a top-level heading (# Policy Summary). Then, create separate sections for 
-  each piece of customer information (age, medical conditions, destination, coverage factors, policy 
-  customization factors) using second-level headings (## Age, ## Medical Conditions, etc.). In each section, 
-  extract relevant information, cross-reference it with the policy details to highlight potential premiums, 
-  exclusions, or other underwriting considerations, and provide examples from the transcript to support your 
-  analysis. Use Markdown elements like bullet points and bold text for clarity."
+  The report will be based on your review of a travel insurance policy and the provided customer information 
+  in Python list format. Your task is to cross-reference the customer's details with the context of the policy, 
+  extract relevant information from the policy, and highlight potential premiums, exclusions, and considerations. 
+  The report should be structured, clear, and concise for the Chief Underwriter to review. Use Markdown formatting 
+  to organize the information effectively and focus on providing an accurate analysis of how the customer 
+  information aligns with the policy's terms and coverage."
+  expected_output: "The report should be in Markdown format and follow this structure:
+  
+  1. Start with a 'Policy Summary' section using a top-level heading (# Policy Summary). This should provide 
+     an overview of the travel insurance policy, summarizing its key features and coverage areas.
+  
+  2. Create separate sections for each piece of customer information using second-level headings (## Age, ## Medical Conditions, 
+     ## Destination, ## Coverage Preferences, ## Customization Preferences). For each section:
+     - Extract and present the relevant customer details in a clear manner.
+     - Cross-reference these details with the policy to highlight applicable premiums, exclusions, or coverage 
+       adjustments.
+     - Use a table format where appropriate to clearly map customer details to the policy terms. The table 
+       should have at least the following columns: 'Customer Detail', 'Policy Reference', 'Applicable Considerations'.
+     - Provide concise explanations or examples from the provided information or policy to support your analysis.
+  
+  3. End with a 'Key Considerations' section to summarize any critical findings, concerns, or recommendations 
+     based on the analysis. Use bullet points for clarity.
+
+  Use Markdown elements such as bullet points, bold text, and tables to enhance readability. The output 
+  must provide actionable insights without making policy recommendations."

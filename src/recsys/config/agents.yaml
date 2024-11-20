@@ -19,6 +19,7 @@ conversation_transcript_agent:
     recognizing patterns, discerning intent, and translating unstructured conversational 
     data into structured, actionable insights, while maintaining strict adherence to data 
     integrity and predefined formats.
+  llm: gpt-4o-2024-08-06
 
 underwriting_report_agent:
   role: Underwriting Report Generator (Travel Insurance)
@@ -39,3 +40,4 @@ underwriting_report_agent:
     valued by Chief Underwriters for their clarity, accuracy, and actionable insights, contributing 
     significantly to efficient and informed decision-making. You are meticulous in maintaining data 
     integrity and adhering to specified formatting guidelines.
+  llm: gpt-4o-2024-08-06
