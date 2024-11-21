@@ -1,57 +1,49 @@
-CSR: Good morning! Thank you for calling ShiokAh Insurance. My name is Sarah. How may I assist you today?
+CSR: Good morning, thank you for calling ShiokAh Insurance. This is Sarah speaking. How may I help you today?
 
-Customer: Hi Sarah! I want to check about travel insurance leh. Planning to go Japan next month.
+Customer: Hi ah, I want to enquire about travel insurance. Planning to go Japan next month.
 
-CSR: I'll be happy to help you with that. Before we look into the options, could you share some information with me? May I know your age?
+CSR: I'll be happy to help you with that. Before we look at the options, could you share some information about yourself and your travel plans?
+
+Customer: Can, can. What you need to know?
+
+CSR: Let me start with your age, please?
 
 Customer: I'm 62 this year.
 
-CSR: Thank you for sharing. Since you're above 60, we'll need to note this for coverage considerations. Do you have any pre-existing medical conditions that we should be aware of?
+CSR: Thank you. And do you have any pre-existing medical conditions that we should take into account?
 
-Customer: Ya, I have high blood pressure and diabetes. Both under control with medication. Been taking them for past 5 years.
+Customer: Yes... I have high blood pressure and diabetes. Both under control lah, but still need to take medicine every day.
 
-CSR: I understand. When you say they're under control, have you had any hospitalizations related to these conditions in the past 12 months?
+CSR: I understand. Thank you for sharing that. How long are you planning to stay in Japan?
 
-Customer: No lah, no hospitalization. Just regular checkup every 3 months at polyclinic.
+Customer: Around two weeks. Going during sakura season, from March 25 to April 8.
 
-CSR: That's helpful to know. Now, you mentioned Japan. How long will you be staying there?
+CSR: Got it. When it comes to coverage, what matters most to you? For example, some travelers prioritize medical coverage, while others focus more on travel-related issues like flight delays or lost baggage.
 
-Customer: Going for 2 weeks. From 15th to 29th December. Winter season, you know.
+Customer: Wah, actually quite worried about the medical part lah. Because I heard Japan hospital very expensive. But also want to make sure got cover for my luggage. Going to buy quite a lot of omiyage for my family.
 
-CSR: Ah, winter travel. Will you be doing any winter sports activities like skiing or snowboarding?
+CSR: I see. For medical coverage, could you tell me what level of coverage you're thinking about? And for luggage, would you be carrying any high-value items?
 
-Customer: No skiing lah. But want to visit Mount Fuji and go for onsen. Maybe do some light hiking also.
+Customer: For medical, I don't know leh... Maybe you can explain what different levels mean?
 
-CSR: I see. For activities like hiking, even light ones, we'll need to note that down. Are you traveling alone or with family members?
+CSR: Of course. For example, basic medical coverage might cover up to $50,000, while comprehensive coverage could go up to $250,000 or more. This would include things like hospital stays, emergency treatment, and medical evacuation if needed.
 
-Customer: Going with my wife. She's 60, no medical condition. Should we get separate policies or can cover together?
+Customer: Oh like that ah... Then better get higher coverage. Don't want to take risk. For luggage, nothing too expensive, just normal clothes and some electronics like my phone and camera.
 
-CSR: I understand you're interested in coverage for both you and your wife. Let me ask about other coverage factors. What are your main concerns regarding the insurance coverage?
+CSR: Thank you for that information. Now, regarding policy customization, would you be interested in any specific activities in Japan that might need special coverage? For example, winter sports or hiking?
 
-Customer: Aiyah, mainly worried about medical emergencies ba. Winter time, don't want to take risk. Also want to cover if flight delay or luggage lost. And if need to cancel trip how?
+Customer: No lah, nothing so adventurous. Just normal sightseeing, shopping, maybe go onsen. Oh ya, speaking of onsen, my blood pressure sometimes not so stable when it's too hot. Is this something I should consider?
 
-CSR: I understand your concerns. For clarity, when you mention medical emergencies, are you looking for coverage that includes:
-1. Emergency medical evacuation
-2. Hospital daily cash benefit
-3. Outpatient treatment
-Could you specify which aspects are most important to you?
+CSR: Yes, that's important information, thank you for mentioning it. Just to summarize your coverage priorities: medical coverage is your top concern, followed by baggage protection. Is that correct?
 
-Customer: All also important lah. But evacuation most important. If anything happen in rural area how?
+Customer: Yes, correct. And if possible, want to make sure got good coverage for trip cancellation also. You know nowadays everything so uncertain.
 
-CSR: Understood. Last few questions about customization preferences. Would you prefer a higher excess amount to reduce premium, or would you rather pay more for premium to have a lower excess? For example, an excess of $100 means you pay the first $100 of any claim.
+CSR: I understand completely. Just one last question - would you be traveling alone or with companions?
 
-Customer: Prefer lower excess lah. Better peace of mind. Don't want to think so much if need to claim.
+Customer: Going with my wife. She's 60, no medical conditions. Should we get separate policies or can get together?
 
-CSR: Thank you for sharing all this information. I have noted down:
-- Your age (62) and your wife's age (60)
-- Your medical conditions (controlled hypertension and diabetes)
-- Destination: Japan for 2 weeks in winter
-- Activities: Light hiking and general sightseeing
-- Priority coverage areas: Medical evacuation, flight delays, trip cancellation
-- Preference for lower excess amount
+CSR: Thank you for mentioning that. I've now gathered all the necessary information about your requirements. Would you like me to explain how our policies are structured for couples?
 
-Would there be anything else you'd like to share about your requirements?
+Customer: Yes please.
 
-Customer: No lah, that's all. Can recommend some suitable plans or not?
-
-CSR: I'll have our system process all these requirements and send you a detailed email with suitable plans for your consideration. Could I have your email address?
+CSR: Let me get our policy specialist to walk you through the available options that match your requirements. Please hold while I transfer your call.

@@ -2,34 +2,24 @@ process_transcript_task:
   description: "This task involves analyzing a conversation transcript between a potential customer 
   interested in travel insurance and a customer service representative from ShiokAh Insurance. 
   The goal is to extract key customer details from the transcript, such as age, medical conditions, 
-  destination, coverage preferences, and customization requests. This extracted information will be 
+  destination, coverage preferences, customization requests and coverage priorities. This extracted information will be 
   organized into a Python list and used by an underwriter to determine policy suitability."
   expected_output: A Python list
 
 generate_underwriting_report_task:
-  description: "This task requires you to generate a comprehensive underwriting report in Markdown format. 
-  The report will be based on your review of a travel insurance policy and the provided customer information 
-  in Python list format. Your task is to cross-reference the customer's details with the context of the policy, 
-  extract relevant information from the policy, and highlight potential premiums, exclusions, and considerations. 
-  The report should be structured, clear, and concise for the Chief Underwriter to review. Use Markdown formatting 
-  to organize the information effectively and focus on providing an accurate analysis of how the customer 
-  information aligns with the policy's terms and coverage."
-  expected_output: "The report should be in Markdown format and follow this structure:
-  
-  1. Start with a 'Policy Summary' section using a top-level heading (# Policy Summary). This should provide 
-     an overview of the travel insurance policy, summarizing its key features and coverage areas.
-  
-  2. Create separate sections for each piece of customer information using second-level headings (## Age, ## Medical Conditions, 
-     ## Destination, ## Coverage Preferences, ## Customization Preferences). For each section:
-     - Extract and present the relevant customer details in a clear manner.
-     - Cross-reference these details with the policy to highlight applicable premiums, exclusions, or coverage 
-       adjustments.
-     - Use a table format where appropriate to clearly map customer details to the policy terms. The table 
-       should have at least the following columns: 'Customer Detail', 'Policy Reference', 'Applicable Considerations'.
-     - Provide concise explanations or examples from the provided information or policy to support your analysis.
-  
-  3. End with a 'Key Considerations' section to summarize any critical findings, concerns, or recommendations 
-     based on the analysis. Use bullet points for clarity.
-
-  Use Markdown elements such as bullet points, bold text, and tables to enhance readability. The output 
-  must provide actionable insights without making policy recommendations."
+  description: >
+    This task requires you to generate a comprehensive underwriting report in Markdown format to assess how suitable a travel 
+    insurance policy is for a customer's given coverage priorities.
+    This report is for the Recommendation Agent and should focus on accurately extracting relevant information 
+    from the provided customer data and cross-referencing it with the policy details. Use clear and concise Markdown 
+    formatting to structure the report.
+  expected_output: >
+    The report should be in Markdown format and follow this structure: First section focuses on the coverage priorities that the 
+    customer has provided, and identifies maximum eligible policy benefits based on the other information provided (age, medical 
+    conditions, destination, coverage_factors, policy_customization_factors) and what is stated in the policy.
+    Do highlight potential benefits, premiums, exclusions, or other underwriting considerations, and provide clear references to the 
+    policy where applicable (plan/tier/conditions, etc to support your analysis. Use Markdown elements such as bullet points and 
+    bold text for clarity. 
+    In the second and final section, give your expert opinion how well the coverage priorities are met. 
+    This is not a recommendation but an objective analysis, based on your expert underwriting judgement.
+    The title of the report should concatenate the insurer and type of benefit in the format '{name_of_insurer}_{type_of_benefit}'.
