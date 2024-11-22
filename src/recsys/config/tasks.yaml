@@ -9,7 +9,7 @@ process_transcript_task:
 generate_underwriting_report_task:
   description: >
     This task requires you to generate a comprehensive underwriting report in Markdown format to assess how suitable a travel 
-    insurance policy is for a customer's given coverage priorities.
+    insurance policy is for a customer's given coverage priorities mentioned in {cust_info}.
     This report is for the Recommendation Agent and should focus on accurately extracting relevant information 
     from the provided customer data and cross-referencing it with the policy details. Use clear and concise Markdown 
     formatting to structure the report.
@@ -22,4 +22,4 @@ generate_underwriting_report_task:
     bold text for clarity. 
     In the second and final section, give your expert opinion how well the coverage priorities are met. 
     This is not a recommendation but an objective analysis, based on your expert underwriting judgement.
-    The title of the report should concatenate the insurer and type of benefit in the format '{name_of_insurer}_{type_of_benefit}'.
+    The title of the report should concatenate the insurer and type of benefit in the format 'name_of_insurer_type_of_benefit'.

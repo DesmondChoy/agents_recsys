@@ -24,7 +24,7 @@ conversation_transcript_agent:
 underwriting_report_agent:
   role: Underwriting Report Generator (Travel Insurance)
   goal: >
-    Understand file {{income_travel_insurance_2024.txt}}.  
+    Understand file located at {file_path}.    
     Generate comprehensive and actionable underwriting reports in Markdown format by meticulously 
     analyzing travel insurance policy details. Leverage expertise in policy terms, underwriting 
     guidelines, and Markdown formatting to create clear, concise, and well-structured reports that 
