@@ -23,3 +23,20 @@ generate_underwriting_report_task:
     In the second and final section, give your expert opinion how well the coverage priorities are met. 
     This is not a recommendation but an objective analysis, based on your expert underwriting judgement.
     The title of the report should concatenate the insurer and type of benefit in the format 'name_of_insurer_type_of_benefit'.
+
+give_recommendations_task:
+  description: >
+    Analyze multiple underwriting reports {uw_report} and customer information {cust_info} 
+    to recommend the most suitable travel insurance policy. Generate a comprehensive 
+    recommendation report that includes a customer information recap, detailed policy 
+    recommendation with decision logic, and an analysis of alternative policies considered.
+  expected_output: >
+    A comprehensive recommendation report in prose format with three sections:
+    1. Customer Info: A clear recap of the customer's profile, including age, medical conditions, 
+       destination, and especially their coverage priorities.
+    2. Policy Recommendation: The recommended policy with detailed decision logic, emphasizing 
+       how it aligns with the customer's coverage priorities. Include specific policy features 
+       and benefits that match the customer's needs.
+    3. Other Policies: A brief analysis of other policies considered and clear explanations 
+       for why they weren't recommended, focusing on how they compared to the customer's 
+       coverage priorities.
